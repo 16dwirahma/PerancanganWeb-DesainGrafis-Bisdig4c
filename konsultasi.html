@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Konsultasi Kesehatan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e7d32;
+      padding: 20px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #e8f5e9;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #1b5e20;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .hero .cta {
+      background-color: #43a047;
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .features, .testimonials, footer {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .features h2, .testimonials h2 {
+      font-size: 24px;
+      color: #1b5e20;
+      margin-bottom: 15px;
+    }
+
+    .features ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .features li {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-left: 5px solid #66bb6a;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .testimonials blockquote {
+      background: #fff;
+      padding: 20px;
+      border-left: 4px solid #66bb6a;
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 28px;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      header nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo"><strong>SehatApp</strong></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Tentang</a>
+      <a href="#">Konsultasi</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Konsultasi Kesehatan Cepat & Mudah</h1>
+    <p>Dapatkan layanan konsultasi langsung dari dokter berlisensi kapan saja, di mana saja.</p>
+    <a class="cta" href="#">Mulai Konsultasi</a>
+  </section>
+
+  <section class="features">
+    <h2>Fitur Utama</h2>
+    <ul>
+      <li>✓ Konsultasi dengan dokter berpengalaman</li>
+      <li>✓ Layanan chat & video call real-time</li>
+      <li>✓ Jadwal fleksibel sesuai kebutuhan Anda</li>
+    </ul>
+  </section>
+
+  <section class="testimonials">
+    <h2>Testimoni Pengguna</h2>
+    <blockquote>
+      “Pelayanannya cepat dan sangat membantu! Dokternya profesional.” – Andi
+    </blockquote>
+    <blockquote>
+      “Aplikasi ini sangat memudahkan saya untuk konsultasi dari rumah.” – Sinta
+    </blockquote>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SehatApp | 
+      <a href="#">Tentang Kami</a> | 
+      <a href="#">Kebijakan Privasi</a> | 
+      <a href="#">Instagram</a> | 
+      <a href="#">WhatsApp</a>
+    </p>
+  </footer>
+
+</body>
+</html>
